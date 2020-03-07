@@ -25,6 +25,20 @@ function App() {
     })
   })
 
+  ;[true, false].forEach(k1 => {
+    ;[true, false].forEach(k2 => {
+      ;[true, false].forEach(k3=> {
+        ;[true, false].forEach(k4 => {
+          ;[true, false].forEach(k5 => {
+            ;[true, false].forEach(k6 => {
+              situations.push([k1, k2, k3, k4, k5, k6])
+            })
+          })
+        })
+      })
+    })
+  })
+
   return (
     <div className="App">
       <h1>Good and Evil visualized and explained</h1>
